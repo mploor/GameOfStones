@@ -1,0 +1,26 @@
+﻿body {
+}
+
+.hideme {
+    display: none;
+}
+
+.errorMsg {
+    color: red;
+}
+
+table {
+    font-family: 'Matura MT Script Capitals';
+    text-align: center;
+    font-size: 3em;
+}
+
+h1 {
+    font-family: 'Matura MT Script Capitals';
+    font-size: 5em;
+}
+
+#score {
+    font-family: 'Matura MT Script Capitals';
+    font-size: 1.5em;
+}

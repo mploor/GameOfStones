@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{399F9822-D553-4FD1-8CDB-B5306F934A8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{19E460F5-F915-4442-9548-60085F6FD48C}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GameOfStones", "src\GameOfStones\GameOfStones.xproj", "{D8633193-3A8F-4A6A-A6CE-65A0AB29E2F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8633193-3A8F-4A6A-A6CE-65A0AB29E2F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8633193-3A8F-4A6A-A6CE-65A0AB29E2F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8633193-3A8F-4A6A-A6CE-65A0AB29E2F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8633193-3A8F-4A6A-A6CE-65A0AB29E2F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D8633193-3A8F-4A6A-A6CE-65A0AB29E2F6} = {399F9822-D553-4FD1-8CDB-B5306F934A8E}
+	EndGlobalSection
+EndGlobal

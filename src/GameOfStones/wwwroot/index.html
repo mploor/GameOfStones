@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Game of Stones</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+    <div class="mainHeader container">
+        <h1>Game of Stones</h1>
+    </div>
+
+    <div id="playButton" class="container">
+        <button id="startGame" type="button" class="btn btn-primary">Start Game</button>
+    </div>
+
+    <div id="gameField" class="container hideme">
+
+    </div>
+
+    <br /><br />
+    <div id="getUserMove" class="container hideme">
+        <form id="moveForm" class="form-horizontal">
+            <div class="form-group">
+                <label for="userMove" class="col-xs-2 control-label">Enter your move:</label>
+                <div class="col-xs-2">
+                    <input id="userMove" type="text" class="form-control" autofocus autocomplete="off" />
+                </div>
+                <div class="col-xs-2">
+                    <button id="moveButton" type="button" class="btn btn-default">Submit Move</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div id="errorMessage" class="container errorMsg">
+    </div>
+
+    <div id="userMoveText" class="container">
+    </div>
+
+    <div id="compMoveText" class="container">
+    </div>
+
+    <div id="nextRoundBox" class="container hideme">
+        <button id="nextRound" type="button" class="btn btn-danger">Next Round</button>
+    </div>
+
+    <div id="newGameBox" class="container hideme">
+        <button id="newGame" type="button" class="btn btn-primary">New Game</button>
+        <button id="quitGame" type="button" class="btn btn-danger">Quit Game</button>
+    </div>
+
+    <br />
+    <div id="score" class="container hideme">
+        <p>Score:</p>
+        <div id="score1" class="col-xs-2"></div>
+        <div id="score2" class="col-xs-2"></div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
