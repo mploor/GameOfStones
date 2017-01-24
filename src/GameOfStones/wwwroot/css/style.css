@@ -24,3 +24,7 @@ h1 {
     font-family: 'Matura MT Script Capitals';
     font-size: 1.5em;
 }
+
+#userMoveText, #compMoveText {
+    font-size: 1.5em;
+}
